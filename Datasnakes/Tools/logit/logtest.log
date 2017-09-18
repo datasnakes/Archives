@@ -1,0 +1,21 @@
+INFO - blast | 2017-09-16 16:33:52 | test_logit line 11: Heyyyy
+[INFO] blast | 2017-09-16 16:35:56 | test_logit line 11: Heyyyy
+[INFO] BLAST_LOG | 2017-09-16 16:37:32 | test_logit line 12: Heyyyy
+[INFO] BLAST_LOG | 2017-09-16 07:53:43 | test_logit line 12: Heyyyy
+[INFO] BLAST_LOG | 2017-09-16 07:54:05 PM | test_logit line 12: Heyyyy
+[INFO] BLAST_LOG | 2017-09-16 07:54:12 Sat | test_logit line 12: Heyyyy
+[INFO] BLAST_LOG | 2017-09-16 08:00:41 PM | test_logit line 12: Heyyyy
+[INFO] BLAST_LOG / 2017-09-16 08:01:33 PM / test_logit line 12: Heyyyy
+[INFO] BLAST_LOG / 2017-09-16 08:01:53 PM / test_logit - line 12: Heyyyy
+[INFO] BLAST_LOG // 2017-09-16 08:02:59 PM // test_logit - line 12: Heyyyy
+[INFO] BLAST_LOG <2017-09-16 08:03:55 PM test_logit - line 12>: Heyyyy
+[INFO] BLAST_LOG <2017-09-16 08:04:13 PM> test_logit - line 12: Heyyyy
+[INFO] BLAST_LOG|2017-09-16 08:04:35 PM|test_logit - line 12: Heyyyy
+[INFO] BLAST_LOG|2017-09-16 08:05:12 PM|test_logit:line 12: Heyyyy
+[INFO] BLAST_LOG|2017-09-16 08:05:32 PM|test_logit.line 12: Heyyyy
+[INFO] BLAST_LOG|2017-09-16 08:05:47 PM|test_logit line 12: Heyyyy
+[INFO] BLAST_LOG|2017-09-16 08:06:13 PM|test_logit line 12:  Heyyyy
+[INFO] BLAST_LOG|2017-09-16 08:06:18 PM|test_logit line 12: Heyyyy
+[INFO] BLAST_LOG|2017-09-16 08:06:59 PM|test_logit line 12: Heyyyy
+[INFO][BLAST_LOG|2017-09-16 08:07:14 PM|test_logit line 12]: Heyyyy
+[INFO][BLAST_LOG|2017-09-16 08:07:52 PM|test_logit|line 12]: Heyyyy

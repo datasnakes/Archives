@@ -1,0 +1,405 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+Datasnakes/__init__.py
+Datasnakes.egg-info/PKG-INFO
+Datasnakes.egg-info/SOURCES.txt
+Datasnakes.egg-info/dependency_links.txt
+Datasnakes.egg-info/entry_points.txt
+Datasnakes.egg-info/not-zip-safe
+Datasnakes.egg-info/top_level.txt
+Datasnakes/Cookies/README.md
+Datasnakes/Cookies/__init__.py
+Datasnakes/Cookies/__pycache__/__init__.cpython-36.pyc
+Datasnakes/Cookies/new_app/__init__.py
+Datasnakes/Cookies/new_app/cookiecutter.json
+Datasnakes/Cookies/new_app/hooks/new_app.py
+Datasnakes/Cookies/new_app/{{ cookiecutter.app_name }}/global.R
+Datasnakes/Cookies/new_app/{{ cookiecutter.app_name }}/index.html
+Datasnakes/Cookies/new_app/{{ cookiecutter.app_name }}/server.R
+Datasnakes/Cookies/new_app/{{ cookiecutter.app_name }}/ui.R
+Datasnakes/Cookies/new_app/{{ cookiecutter.app_name }}/data/.gitkeep
+Datasnakes/Cookies/new_app/{{ cookiecutter.app_name }}/scripts/.gitkeep
+Datasnakes/Cookies/new_app/{{ cookiecutter.app_name }}/tests/.gitkeep
+Datasnakes/Cookies/new_app/{{ cookiecutter.app_name }}/www/.gitkeep
+Datasnakes/Cookies/new_basic_project/__init__.py
+Datasnakes/Cookies/new_basic_project/cookiecutter.json
+Datasnakes/Cookies/new_basic_project/{{ cookiecutter.basic_project_name }}/data/README.md
+Datasnakes/Cookies/new_basic_project/{{ cookiecutter.basic_project_name }}/databases/NCBI/README.md
+Datasnakes/Cookies/new_basic_project/{{ cookiecutter.basic_project_name }}/index/README.md
+Datasnakes/Cookies/new_basic_project/{{ cookiecutter.basic_project_name }}/raw_data/README.md
+Datasnakes/Cookies/new_database/__init__.py
+Datasnakes/Cookies/new_database/cookiecutter.json
+Datasnakes/Cookies/new_database/hooks/new_db.py
+Datasnakes/Cookies/new_database/{{ cookiecutter.db_name }}/.gitkeep
+Datasnakes/Cookies/new_database/{{ cookiecutter.db_name }}/archive/.gitkeep
+Datasnakes/Cookies/new_project/__init__.py
+Datasnakes/Cookies/new_project/cookiecutter.json
+Datasnakes/Cookies/new_project/hooks/post_gen_project.py
+Datasnakes/Cookies/new_project/{{ cookiecutter.project_name }}/.gitkeep
+Datasnakes/Cookies/new_project/{{ cookiecutter.project_name }}/archive/.gitkeep
+Datasnakes/Cookies/new_repository/__init__.py
+Datasnakes/Cookies/new_repository/cookiecutter.json
+Datasnakes/Cookies/new_repository/hooks/imports.py
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/.gitignore
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/__init__.py
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/setup.py
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/docs/Phylogenetic Analysis Flowchart.pdf
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/docs/Background Information/.gitkeep
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/docs/Background Information/README.md
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/docs/Biopython/Basic BioSQL with Biopython.pdf
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/docs/Biopython/Biopython Tutorial and Cookbook.pdf
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/docs/Linux/Bash Beginners Guide.pdf
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/docs/Linux/Linux Fundamentals.pdf
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/docs/MCSR & Linux/Bash Beginners Guide.pdf
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/docs/MCSR & Linux/Linux Fundamentals.pdf
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/docs/Phylogenetics/PAML Worked Example.pdf
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/docs/Phylogenetics/pamlDOC.pdf
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/docs/Standalone BLAST/BLAST Command Line Applications User Manual.pdf
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/users/.gitkeep
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/web/flask/.gitkeep
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/web/ftp/.gitkeep
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/web/shiny/.gitkeep
+Datasnakes/Cookies/new_repository/{{ cookiecutter.repository_name }}/web/wasabi/.gitkeep
+Datasnakes/Cookies/new_research/cookiecutter.json
+Datasnakes/Cookies/new_research/hooks/new_research.py
+Datasnakes/Cookies/new_research/{{ cookiecutter.research_type }}/{{ cookiecutter.research_name }}/data/.gitkeep
+Datasnakes/Cookies/new_research/{{ cookiecutter.research_type }}/{{ cookiecutter.research_name }}/data/README.md
+Datasnakes/Cookies/new_research/{{ cookiecutter.research_type }}/{{ cookiecutter.research_name }}/index/.gitkeep
+Datasnakes/Cookies/new_research/{{ cookiecutter.research_type }}/{{ cookiecutter.research_name }}/index/README.md
+Datasnakes/Cookies/new_research/{{ cookiecutter.research_type }}/{{ cookiecutter.research_name }}/raw_data/.gitkeep
+Datasnakes/Cookies/new_research/{{ cookiecutter.research_type }}/{{ cookiecutter.research_name }}/raw_data/README.md
+Datasnakes/Cookies/new_research/{{ cookiecutter.research_type }}/{{ cookiecutter.research_name }}/web/.gitkeep
+Datasnakes/Cookies/new_research/{{ cookiecutter.research_type }}/{{ cookiecutter.research_name }}/web/README.md
+Datasnakes/Cookies/new_user/cookiecutter.json
+Datasnakes/Cookies/new_user/hooks/new_user.py
+Datasnakes/Cookies/new_user/{{ cookiecutter.user_name }}/databases/README.md
+Datasnakes/Cookies/new_user/{{ cookiecutter.user_name }}/databases/NCBI/.gitkeep
+Datasnakes/Cookies/new_user/{{ cookiecutter.user_name }}/databases/NCBI/README.md
+Datasnakes/Cookies/new_user/{{ cookiecutter.user_name }}/index/.gitkeep
+Datasnakes/Cookies/new_user/{{ cookiecutter.user_name }}/index/README.md
+Datasnakes/Cookies/new_user/{{ cookiecutter.user_name }}/log/.gitkeep
+Datasnakes/Cookies/new_user/{{ cookiecutter.user_name }}/log/README.md
+Datasnakes/Cookies/new_user/{{ cookiecutter.user_name }}/manuscripts/.gitkeep
+Datasnakes/Cookies/new_user/{{ cookiecutter.user_name }}/manuscripts/README.md
+Datasnakes/Cookies/new_user/{{ cookiecutter.user_name }}/other/.gitkeep
+Datasnakes/Cookies/new_user/{{ cookiecutter.user_name }}/projects/.gitkeep
+Datasnakes/Cookies/new_user/{{ cookiecutter.user_name }}/projects/README.md
+Datasnakes/Cookies/new_website/.gitignore
+Datasnakes/Cookies/new_website/.travis.yml
+Datasnakes/Cookies/new_website/README.rst
+Datasnakes/Cookies/new_website/cookiecutter.json
+Datasnakes/Cookies/new_website/tasks.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/.bowerrc
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/.gitignore
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/.isort.cfg
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/.travis.yml
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/LICENSE
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/Procfile
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/README.rst
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/autoapp.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/bower.json
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/requirements.txt
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/setup.cfg
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/hooks/post_gen_project.sh
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/requirements/dev.txt
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/requirements/prod.txt
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/tests/__init__.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/tests/conftest.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/tests/factories.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/tests/test_config.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/tests/test_forms.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/tests/test_functional.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/tests/test_models.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/__init__.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/app.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/assets.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/commands.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/compat.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/database.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/extensions.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/settings.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/utils.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/public/__init__.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/public/forms.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/public/views.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/css/style.css
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/js/plugins.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/js/script.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/.bower.json
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/Gruntfile.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/LICENSE
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/README.md
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/bower.json
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/package.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/package.json
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/fonts/glyphicons-halflings-regular.eot
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/fonts/glyphicons-halflings-regular.svg
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/fonts/glyphicons-halflings-regular.ttf
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/fonts/glyphicons-halflings-regular.woff
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/fonts/glyphicons-halflings-regular.woff2
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/grunt/.jshintrc
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/grunt/bs-commonjs-generator.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/grunt/bs-glyphicons-data-generator.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/grunt/bs-lessdoc-parser.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/grunt/bs-raw-files-generator.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/grunt/configBridge.json
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/grunt/sauce_browsers.yml
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/js/.jscsrc
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/js/.jshintrc
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/js/affix.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/js/alert.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/js/button.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/js/carousel.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/js/collapse.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/js/dropdown.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/js/modal.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/js/popover.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/js/scrollspy.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/js/tab.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/js/tooltip.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/js/transition.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/.csscomb.json
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/.csslintrc
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/alerts.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/badges.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/bootstrap.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/breadcrumbs.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/button-groups.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/buttons.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/carousel.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/close.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/code.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/component-animations.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/dropdowns.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/forms.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/glyphicons.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/grid.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/input-groups.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/jumbotron.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/labels.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/list-group.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/media.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/modals.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/navbar.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/navs.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/normalize.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/pager.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/pagination.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/panels.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/popovers.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/print.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/progress-bars.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/responsive-embed.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/responsive-utilities.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/scaffolding.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/tables.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/theme.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/thumbnails.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/tooltip.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/type.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/utilities.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/variables.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/wells.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/alerts.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/background-variant.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/border-radius.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/buttons.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/center-block.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/clearfix.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/forms.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/gradients.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/grid-framework.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/grid.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/hide-text.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/image.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/labels.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/list-group.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/nav-divider.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/nav-vertical-align.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/opacity.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/pagination.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/panels.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/progress-bar.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/reset-filter.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/reset-text.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/resize.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/responsive-visibility.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/size.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/tab-focus.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/table-row.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/text-emphasis.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/text-overflow.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/bootstrap/less/mixins/vendor-prefixes.less
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/font-awesome4/css/font-awesome.css
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/font-awesome4/css/font-awesome.min.css
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/font-awesome4/fonts/FontAwesome.otf
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/font-awesome4/fonts/fontawesome-webfont.eot
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/font-awesome4/fonts/fontawesome-webfont.svg
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/font-awesome4/fonts/fontawesome-webfont.ttf
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/font-awesome4/fonts/fontawesome-webfont.woff
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/font-awesome4/fonts/fontawesome-webfont.woff2
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/.bower.json
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/MIT-LICENSE.txt
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/bower.json
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/ajax.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/attributes.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/callbacks.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/core.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/css.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/data.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/deferred.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/deprecated.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/dimensions.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/effects.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/event.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/intro.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/jquery.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/manipulation.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/offset.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/outro.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/queue.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/selector-native.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/selector-sizzle.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/selector.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/serialize.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/traversing.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/wrap.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/ajax/jsonp.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/ajax/load.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/ajax/parseJSON.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/ajax/parseXML.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/ajax/script.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/ajax/xhr.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/attributes/attr.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/attributes/classes.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/attributes/prop.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/attributes/support.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/attributes/val.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/core/access.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/core/init.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/core/parseHTML.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/core/ready.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/css/addGetHookIf.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/css/curCSS.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/css/defaultDisplay.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/css/hiddenVisibleSelectors.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/css/support.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/css/swap.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/data/Data.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/data/accepts.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/effects/Tween.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/effects/animatedSelector.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/event/ajax.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/event/alias.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/event/support.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/exports/amd.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/exports/global.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/manipulation/_evalUrl.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/manipulation/support.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/queue/delay.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/libs/jQuery/src/traversing/findFilter.js
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/public/.gitkeep
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/public/css/.gitkeep
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/static/public/js/.gitkeep
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/templates/401.html
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/templates/404.html
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/templates/500.html
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/templates/footer.html
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/templates/layout.html
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/templates/nav.html
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/templates/public/about.html
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/templates/public/home.html
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/templates/public/register.html
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/templates/users/members.html
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/user/__init__.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/user/forms.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/user/models.py
+Datasnakes/Cookies/new_website/{{cookiecutter.website_name}}/{{cookiecutter.website_name}}/user/views.py
+Datasnakes/Manager/__init__.py
+Datasnakes/Manager/data_management.py
+Datasnakes/Manager/database_management.py
+Datasnakes/Manager/management.py
+Datasnakes/Manager/config/__init__.py
+Datasnakes/Manager/config/get_gi_lists.py
+Datasnakes/Manager/config/pipline.py
+Datasnakes/Manager/config/script.py
+Datasnakes/Manager/config/worker.py
+Datasnakes/Manager/config/paml_control_files/__init__.py
+Datasnakes/Orthologs/__init__.py
+Datasnakes/Orthologs/command_line.py
+Datasnakes/Orthologs/Align/__init__.py
+Datasnakes/Orthologs/Align/guidance2.py
+Datasnakes/Orthologs/Align/msa.py
+Datasnakes/Orthologs/Align/orthoclustal.py
+Datasnakes/Orthologs/Align/pal2nal.py
+Datasnakes/Orthologs/Blast/__init__.py
+Datasnakes/Orthologs/Blast/blastn.py
+Datasnakes/Orthologs/Blast/comparative_genetics_files.py
+Datasnakes/Orthologs/Blast/comparative_genetics_objects.py
+Datasnakes/Orthologs/Blast/utils.py
+Datasnakes/Orthologs/Genbank/__init__.py
+Datasnakes/Orthologs/Genbank/genbank.py
+Datasnakes/Orthologs/Genbank/utils.py
+Datasnakes/Orthologs/Phylogenetics/__init__.py
+Datasnakes/Orthologs/Phylogenetics/IQTree/__init__.py
+Datasnakes/Orthologs/Phylogenetics/IQTree/best_tree.py
+Datasnakes/Orthologs/Phylogenetics/IQTree/consensus.py
+Datasnakes/Orthologs/Phylogenetics/IQTree/iqtree.py
+Datasnakes/Orthologs/Phylogenetics/PAML/__init__.py
+Datasnakes/Orthologs/Phylogenetics/PAML/codeml.py
+Datasnakes/Orthologs/Phylogenetics/PAML/ete3paml.py
+Datasnakes/Orthologs/Phylogenetics/PhyML/__init__.py
+Datasnakes/Orthologs/Phylogenetics/PhyML/orthophyml.py
+Datasnakes/Orthologs/Phylogenetics/Phylip/__init__.py
+Datasnakes/Orthologs/Phylogenetics/Phylip/orthophylip.py
+Datasnakes/Orthologs/Phylogenetics/PhyloTree/__init__.py
+Datasnakes/Orthologs/Phylogenetics/PhyloTree/treeviz.py
+Datasnakes/Pipeline/__init__.py
+Datasnakes/Pipeline/test.py
+Datasnakes/Tools/__init__.py
+Datasnakes/Tools/ftp/GetBlastDB.py
+Datasnakes/Tools/ftp/__init__.py
+Datasnakes/Tools/ftp/ftp2db.py
+Datasnakes/Tools/logit/__init__.py
+Datasnakes/Tools/logit/logit.py
+Datasnakes/Tools/mpi/__init__.py
+Datasnakes/Tools/mpi/multi_dbupload.py
+Datasnakes/Tools/mygene/__init__.py
+Datasnakes/Tools/mygene/mygene.py
+Datasnakes/Tools/notify/__init__.py
+Datasnakes/Tools/notify/notify.py
+Datasnakes/Tools/pandoc/__init__.py
+Datasnakes/Tools/parallel/__init__.py
+Datasnakes/Tools/parallel/multiprocess.py
+Datasnakes/Tools/pybasher/__init__.py
+Datasnakes/Tools/pybasher/bash.py
+Datasnakes/Tools/qsub/__init__.py
+Datasnakes/Tools/qsub/qsubutils.py
+Datasnakes/Tools/qsub/temp.py
+Datasnakes/Tools/send2server/__init__.py
+Datasnakes/Tools/send2server/s2s.py
+Datasnakes/Tools/utils/__init__.py
+Datasnakes/Tools/utils/other_utils.py
+Datasnakes/Tools/zipper/__init__.py
+Datasnakes/Tools/zipper/zipper.py
+Docs/README.md
+Docs/archive/clustalomega.md
+Docs/archive/compgenetics.md
+Docs/archive/index.md
+Docs/archive/naming_conventions.md
+Docs/archive/phylogenetics.md
+Docs/docs/source/Makefile
+Docs/docs/source/clustalomega.rst
+Docs/docs/source/compgenetics.rst
+Docs/docs/source/conf.py
+Docs/docs/source/index.rst
+Docs/docs/source/namingconventions.rst
+Docs/docs/source/phylogenetics.rst
+Tests/README.md
+Tests/test_manager.py
+Tests/test_orthologs.py
+Tests/test_pipeline.py
+Tests/test_tools.py
